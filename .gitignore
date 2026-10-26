@@ -1,4 +1,5 @@
 *.pdf
+!Tutorial_8/cats/*.pdf
 *.executed.ipynb
 .ipynb_checkpoints/
 __pycache__/
