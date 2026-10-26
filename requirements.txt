@@ -1,0 +1,13 @@
+# tested with Python 3.12
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.0
+networkx>=3.0
+opencv-python>=4.8      # chapter 8
+zstandard==0.23.0       # chapters 3 and 6: compressed sizes depend on the version
+bitarray>=2.8           # chapter 3
+jupyter
+# optional, only to download the Kaggle data (chapters 2 and 8):
+# kagglehub
+# kaggle
