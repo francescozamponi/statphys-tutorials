@@ -10,13 +10,13 @@ of chapter N, together with its data, and reproduces the figures and numbers of 
 
 | Notebook | Chapter | Run online |
 |---|---|---|
-| `Tutorial_2/Tutorial_2.ipynb` | 2 — Averages and extremes | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_2/Tutorial_2.ipynb) |
-| `Tutorial_3/Tutorial_3.ipynb` | 3 — Data compression | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_3/Tutorial_3.ipynb) |
-| `Tutorial_4/Tutorial_4.ipynb` | 4 — Inferring a distribution from a small dataset | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_4/Tutorial_4.ipynb) |
-| `Tutorial_6/Tutorial_6.ipynb` | 6 — Correlations and compression in DNA sequences | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_6/Tutorial_6.ipynb) |
-| `Tutorial_7/Tutorial_7.ipynb` | 7 — Sudden shifts in collective opinion | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_7/Tutorial_7.ipynb) |
-| `Tutorial_8/Tutorial_8.ipynb` | 8 — Catastrophic forgetting in the Hopfield model | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_8/Tutorial_8.ipynb) |
-| `Tutorial_10/Tutorial_10.ipynb` | 10 — Spectrum of a sparse graph | [Colab](https://colab.research.google.com/github/OWNER/REPO/blob/main/Tutorial_10/Tutorial_10.ipynb) |
+| `Tutorial_2/Tutorial_2.ipynb` | 2 — Averages and extremes | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_2/Tutorial_2.ipynb) |
+| `Tutorial_3/Tutorial_3.ipynb` | 3 — Data compression | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_3/Tutorial_3.ipynb) |
+| `Tutorial_4/Tutorial_4.ipynb` | 4 — Inferring a distribution from a small dataset | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_4/Tutorial_4.ipynb) |
+| `Tutorial_6/Tutorial_6.ipynb` | 6 — Correlations and compression in DNA sequences | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_6/Tutorial_6.ipynb) |
+| `Tutorial_7/Tutorial_7.ipynb` | 7 — Sudden shifts in collective opinion | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_7/Tutorial_7.ipynb) |
+| `Tutorial_8/Tutorial_8.ipynb` | 8 — Catastrophic forgetting in the Hopfield model | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_8/Tutorial_8.ipynb) |
+| `Tutorial_10/Tutorial_10.ipynb` | 10 — Spectrum of a sparse graph | [Colab](https://colab.research.google.com/github/francescozamponi/statphys-tutorials/blob/main/Tutorial_10/Tutorial_10.ipynb) |
 
 ## Running the notebooks
 
@@ -37,7 +37,8 @@ and fonts as in the book.
   distributed with [MetaTCR](https://github.com/deepomicslab/MetaTCR): `tcr_clone_sizes.csv` (rebuilt
   by the notebook if missing). Heights and weights (SOCR, Dinov 2008), from
   [Kaggle](https://www.kaggle.com/datasets/burnoutminer/heights-and-weights-dataset/). City populations
-  (appendix), from [simplemaps](https://simplemaps.com/data/world-cities) (basic version, CC BY 4.0).
+  (appendix): `worldcities.csv`, the version used in the book (44,691 cities), from the free basic
+  database of [simplemaps](https://simplemaps.com/data/world-cities), licensed CC BY 4.0.
 * **Tutorial 3.** Text files generated as described in the book.
 * **Tutorial 4.** International football results by Mart Jürisoo (CC0),
   [Kaggle](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017) /
