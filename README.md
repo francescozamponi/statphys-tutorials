@@ -35,8 +35,9 @@ and fonts as in the book.
 
 * **Tutorial 2.** T-cell receptor repertoires (Emerson *et al.*, Nat. Genet. 49, 659 (2017)), subset
   distributed with [MetaTCR](https://github.com/deepomicslab/MetaTCR): `tcr_clone_sizes.csv` (rebuilt
-  by the notebook if missing). Heights and weights (SOCR, Dinov 2008), from
-  [Kaggle](https://www.kaggle.com/datasets/burnoutminer/heights-and-weights-dataset/). City populations
+  by the notebook if missing). Body weights of men aged 20 or more measured in the
+  [NHANES](https://www.cdc.gov/nchs/nhanes/) surveys 1999–2018 (CDC, public domain):
+  `nhanes_men_weight.csv` (rebuilt by the notebook from the NHANES files if missing). City populations
   (appendix): `worldcities.csv`, the version used in the book (44,691 cities), from the free basic
   database of [simplemaps](https://simplemaps.com/data/world-cities), licensed CC BY 4.0.
 * **Tutorial 3.** Text files generated as described in the book.
