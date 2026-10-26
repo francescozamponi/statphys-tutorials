@@ -195,7 +195,12 @@ def save(path, width, aspect=None, fig=None, layout=True, close=False):
         fig.set_size_inches(fw, fh)
         if layout:
             try:
-                fig.tight_layout(pad=0.3)
+                # leave room for a figure title (suptitle), which tight_layout ignores
+                top = 1.0
+                if fig._suptitle is not None and fig._suptitle.get_text():
+                    h = fig._suptitle.get_window_extent(fig.canvas.get_renderer()).height
+                    top = 1.0 - (h + 0.5 * FS_LABEL) / (fig.get_size_inches()[1] * fig.dpi)
+                fig.tight_layout(pad=0.3, rect=(0, 0, 1, top))
             except Exception:
                 pass
         bb = fig.get_tightbbox(fig.canvas.get_renderer())

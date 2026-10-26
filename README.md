@@ -47,6 +47,7 @@ and fonts as in the book.
   5 January 2025 used in the book.
 * **Tutorial 6.** Bacteriophage λ (GenBank J02459), influenza A H1N1 PB2 segments (ENA DQ208309,
   GenBank CY044380), and two artificial sequences generated in the notebook.
-* **Tutorial 8.** Images of the Kaggle competition [Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats),
-  downloaded by the notebook with the Kaggle API (requires a Kaggle account and accepting the
-  competition rules).
+* **Tutorial 8.** The 80 images of cats `cats/1.jpg` ... `80.jpg` of the *Cats and Dogs Dataset*
+  (Asirra dataset of Microsoft Research and Petfinder.com), distributed by
+  [Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54765) under the Community Data
+  License Agreement – Permissive 2.0 (text in `cats/CDLA-Permissive-2.0.pdf`).

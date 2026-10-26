@@ -3,7 +3,5 @@
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
-Tutorial_2/SOCR-HeightWeight.csv
-Tutorial_8/catsvsdogs_small/
-Tutorial_8/train.zip
+Tutorial_8/kagglecatsanddogs_5340.zip
 Tutorial_3/random_seq.txt
